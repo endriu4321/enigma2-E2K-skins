@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # Instalacja skina E2K
-##setup command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/azman26/enigma2-E2K-skins/main/installer.sh -O - | /bin/sh
+
+##setup command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/azman26/enigma2-E2K-skins/refs/heads/main/installer.sh -O - | /bin/sh
 
 SKINS_URL="https://github.com/azman26/enigma2-E2K-skins/archive/refs/heads/main.zip"
 TMP_DIR="/tmp/azman-E2K-skins"
