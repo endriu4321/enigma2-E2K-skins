@@ -1,1 +1,1 @@
-Skórka dla pluginu E2Kodi
+Skórki dla pluginu E2Kodi.
