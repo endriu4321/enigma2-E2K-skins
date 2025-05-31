@@ -29,8 +29,10 @@ if [ ! -d "$DEST_DIR" ]; then
     mkdir -p "$DEST_DIR"
 fi
 
-echo "Kopiowanie katalogu azman-E2K-skins do $DEST_DIR..."
+echo "Kopiowanie katalogów do $DEST_DIR..."
 cp -r enigma2-E2K-skins-main/azman-E2K-skins "$DEST_DIR/"
+cp -r enigma2-E2K-skins-main/enigma2-E2K-skins "$DEST_DIR/"
+cp -r enigma2-E2K-skins-main/jk36-E2K-skins "$DEST_DIR/"
 
 cd /
 rm -rf "$TMP_DIR"
