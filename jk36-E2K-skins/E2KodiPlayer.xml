@@ -7,7 +7,7 @@
    <convert type="ClockToText">Format:%A %d.%m.%Y</convert>
    </widget>
  <widget name="Title" position="15,70" size="810,46" font="Roboto_HD; 32" halign="center" backgroundColor="black" transparent="1"/>
- <widget source="list" render="Listbox" position="28,133" size="790,720" selectionPixmap="BlackHarmony/menu/sel_920_45.png" scrollbarMode="showOnDemand" scrollbarWidth="6" backgroundColor="transpBlack" transparent="1">
+ <widget source="list" render="Listbox" position="28,133" size="790,860" selectionPixmap="BlackHarmony/menu/sel_920_45.png" scrollbarMode="showOnDemand" scrollbarWidth="6" backgroundColor="transpBlack" transparent="1">
      <convert type="TemplatedMultiContent">
      {"template": [
      MultiContentEntryPixmapAlphaTest(pos = (10, 2), size = (40, 40), png = 0),
@@ -18,8 +18,12 @@
                         }
       </convert>
        </widget>
- <eLabel backgroundColor="linie"  position="35,857" size="775,1" zPosition="4" /> 
- <widget name="KodiNotificationsAndStatus" position="30,863" size="785,153" font="Regular;27" halign="center" valign="center" transparent="1" backgroundColor="black" foregroundColor="#000090e6"/>   
+	   
+	   
+ <eLabel backgroundColor="linie"  position="35,1000" size="775,1" zPosition="4" /> 
+ 
+ 
+ <widget name="KodiNotificationsAndStatus" position="860,670" size="1050,400" font="Regular;35" halign="center" valign="center" transparent="1" backgroundColor="black" foregroundColor="#000090e6"/>   
  <ePixmap pixmap="BlackHarmony/buttons/key_red.png" position="20,1035" size="35,27" alphatest="on"/>
  <widget name="key_red" position="55,1032" size="205,30" zPosition="1" font="Roboto_HD; 24" halign="left" backgroundColor="dark_grey" transparent="1"/>
  <ePixmap pixmap="BlackHarmony/buttons/key_green.png" position="210,1035" size="35,27" alphatest="on"/>
